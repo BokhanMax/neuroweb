@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: 'uk_UA',
+  lang: 'uk',
   title: "Neuroweb",
   description: "Блог про веб-розробку",
   srcDir: './src',
@@ -27,12 +27,13 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/neurowebua' },
-      { icon: 'instagram', link: 'https://instagram.com/neurowebua' }
+      { icon: 'github', link: 'https://github.com/neurowebstudio' },
+      { icon: 'instagram', link: 'https://instagram.com/neurowebstudio' },
+      { icon: 'telegram', link: 'https://t.me/neurowebstudio'}
     ],
     footer: {
       message: 'Всі права захищені.',
-      copyright: 'Максим Бохан © 2024'
+      copyright: 'Neuroweb © 2024'
     }
 
   },
