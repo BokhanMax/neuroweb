@@ -29,7 +29,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/neurowebstudio' },
       { icon: 'instagram', link: 'https://instagram.com/neurowebstudio' },
-      { icon: 'telegram', link: 'https://t.me/neurowebstudio'}
+      { icon: 'telegram', link: 'https://t.me/neurowebstudio' }
     ],
     footer: {
       message: 'Всі права захищені.',
