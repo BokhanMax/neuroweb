@@ -1,12 +1,12 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'uk',
   title: "Neuroweb",
   description: "Блог про веб-розробку",
   srcDir: './src',
   outDir: './docs',
+  cleanUrls: 'true',
   head: [
 	  ['link', { rel: 'shortcut icon', href: '/favicons/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' }],
@@ -22,7 +22,6 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Головна', link: '/' },
       { text: 'Про студію', link: '/about' },
@@ -43,14 +42,15 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/neurowebstudio' },
       { icon: 'instagram', link: 'https://instagram.com/neurowebstudio' },
-      { icon: 'telegram', link: 'https://t.me/neurowebstudio' }
+      { icon: 'tg', link: 'https://t.me/neurowebstudio' }
     ],
+
     footer: {
       message: 'Всі права захищені.',
       copyright: 'Neuroweb © 2024'
     }
-
   },
+
   sitemap: {
     hostname: 'https://neuroweb.pp.ua'
   }
