@@ -31,3 +31,4 @@ test
 *.tsbuildinfo
 package-lock.json
 .vitepress/cache/*
+temp
