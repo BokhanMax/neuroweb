@@ -19,5 +19,5 @@ head:
 <BlogCard />
 
 <script setup>
-  import BlogCard from './components/BlogCard.vue'
+  import BlogCard from '../components/BlogCard.vue'
 </script>
