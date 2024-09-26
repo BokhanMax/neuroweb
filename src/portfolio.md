@@ -1,23 +1,17 @@
 ---
 layout: home
-title: 'Блог веб-розробника'
+title: 'Виконані роботи'
 head:
   - - meta
     - name: description
       content: Блог про веб-розробку
   - - meta
     - property: og:title
-      content: Блог веб-розробника | Neuroweb
+      content: Портфоліо | Neuroweb
   - - meta
     - property: og:description
       content: Блог про веб-розробку
   - - meta
     - property: og:url
-      content: https://neuroweb.pp.ua/blog
+      content: https://neuroweb.pp.ua/portfolio
 ---
-
-<BlogCard />
-
-<script setup>
-  import BlogCard from './components/BlogCard.vue'
-</script>

@@ -24,6 +24,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Головна', link: '/' },
+      { text: 'Роботи', link: '/portfolio' },
       { text: 'Про студію', link: '/about' },
       { text: 'Блог', link: '/blog' },
       { text: 'Зв\'язок', link: '/contacts' },
@@ -42,7 +43,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/neurowebstudio' },
       { icon: 'instagram', link: 'https://instagram.com/neurowebstudio' },
-      { icon: 'tg', link: 'https://t.me/neurowebstudio' }
+      { icon: 'telegram', link: 'https://t.me/neurowebstudio' }
     ],
 
     footer: {
