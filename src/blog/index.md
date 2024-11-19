@@ -15,4 +15,8 @@ head:
     - property: og:url
       content: https://neuroweb.pp.ua/blog
 
+hero:
+  name: Neuro:Блог
+
+
 ---

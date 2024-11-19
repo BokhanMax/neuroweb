@@ -35,7 +35,13 @@ export default defineConfig({
         items: [
           { text: 'Сайт-візитка', link: '/services/create-corporate' },
           { text: 'Інтернет-магазин', link: '/services/create-internet-shop' },
-          { text: 'Корпоративний блог', link: '/services/create-blog' }
+          { text: 'Корпоративний блог', link: '/services/create-blog' },
+          { text: 'Односторінковий лендінг', link: '/services/create-landing' },
+          /* { text: 'Персональне портфоліо', link: '/services/create-portfolio' },
+          { text: 'Веб-довідник', link: '/services/create-wiki' },
+          { text: 'CRM система', link: '/services/create-crm' },
+          { text: 'Учбовий портал', link: '/services/create-learning' },
+          { text: 'Внутрішня документація', link: '/services/create-docu' } */
         ]
       },
       { text: 'Блог', link: '/blog' },

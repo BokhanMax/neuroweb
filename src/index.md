@@ -22,7 +22,7 @@ hero:
   actions:
     - theme: brand
       text: Роботи
-      link: /about
+      link: /portfolio
 
 features:
   - title: Сайт-візитка

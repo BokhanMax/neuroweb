@@ -16,7 +16,7 @@ head:
       content: https://neuroweb.pp.ua/services/create-blog
 
 hero:
-  name: "Корпоративний блог"
+  name: Корпоративний блог
   tagline: Допоможіть світу дізнатись про вас!
 
 

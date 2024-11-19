@@ -16,7 +16,7 @@ head:
       content: https://neuroweb.pp.ua/services/create-corporate
 
 hero:
-  name: "Сайт-візитка"
+  name: Сайт-візитка
   tagline: Про ваш бізнес будуть знати всі!
 
 

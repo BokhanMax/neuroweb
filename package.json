@@ -5,8 +5,8 @@
     "neuro:preview": "vitepress preview"
   },
   "devDependencies": {
-    "@vue/eslint-config-typescript": "^13.0.0",
-    "sass-embedded": "^1.79.3",
-    "vitepress": "^1.1.4"
+    "@vue/eslint-config-typescript": "*",
+    "sass-embedded": "*",
+    "vitepress": "*"
   }
 }
