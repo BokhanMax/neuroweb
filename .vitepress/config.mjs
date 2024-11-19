@@ -7,8 +7,12 @@ export default defineConfig({
   srcDir: './src',
   outDir: './docs',
   cleanUrls: 'true',
+  search: {
+    provider: 'local'
+  },
+
   head: [
-	  ['link', { rel: 'shortcut icon', href: '/favicons/favicon.ico' }],
+    ['link', { rel: 'shortcut icon', href: '/favicons/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicons/favicon-32x32.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicons/favicon-16x16.png' }],
@@ -26,6 +30,14 @@ export default defineConfig({
       { text: 'Головна', link: '/' },
       { text: 'Роботи', link: '/portfolio' },
       { text: 'Про студію', link: '/about' },
+      {
+        text: 'Послуги',
+        items: [
+          { text: 'Сайт-візитка', link: '/services/create-corporate' },
+          { text: 'Інтернет-магазин', link: '/services/create-internet-shop' },
+          { text: 'Корпоративний блог', link: '/services/create-blog' }
+        ]
+      },
       { text: 'Блог', link: '/blog' },
       { text: 'Зв\'язок', link: '/contacts' },
     ],

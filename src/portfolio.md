@@ -14,4 +14,9 @@ head:
   - - meta
     - property: og:url
       content: https://neuroweb.pp.ua/portfolio
+
+hero:
+  name: "Наші роботи"
+  tagline: "Дещо з того, що ми створили"
+
 ---

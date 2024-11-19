@@ -1,14 +1,12 @@
 {
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "neuro:dev": "vitepress dev",
+    "neuro:build": "vitepress build",
+    "neuro:preview": "vitepress preview"
   },
   "devDependencies": {
+    "@vue/eslint-config-typescript": "^13.0.0",
     "sass-embedded": "^1.79.3",
     "vitepress": "^1.1.4"
-  },
-  "dependencies": {
-    "lucide": "^0.446.0"
   }
 }

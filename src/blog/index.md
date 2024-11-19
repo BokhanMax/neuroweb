@@ -14,10 +14,5 @@ head:
   - - meta
     - property: og:url
       content: https://neuroweb.pp.ua/blog
+
 ---
-
-<BlogCard />
-
-<script setup>
-  import BlogCard from '../components/BlogCard.vue'
-</script>

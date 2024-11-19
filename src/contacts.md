@@ -14,4 +14,7 @@ head:
   - - meta
     - property: og:url
       content: https://neuroweb.pp.ua/contacts
+
+hero:
+  name: "Контакти Neuroweb"
 ---
