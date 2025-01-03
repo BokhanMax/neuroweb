@@ -66,7 +66,7 @@ export default defineConfig({
 
     footer: {
       message: 'Всі права захищені.',
-      copyright: 'Neuroweb © 2024'
+      copyright: 'Neuroweb © 2025'
     }
   },
 
